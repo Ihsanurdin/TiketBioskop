@@ -9,10 +9,10 @@ if (umur >= 13) {
   const studio = prompt("Pilih studio A, B, atau C (Huruf Besar) : ")
   
   if (studio == "A") {
-    alert(`Tiket ${nama} , Studio A, Umur ${umur}`);
+    alert(`Tiket ${nama} , Studio A, Umur ${umur} Tahun`);
   } else if (studio == "B") {
-    alert(`Tiket ${nama} , Studio B, Umur ${umur}`);
+    alert(`Tiket ${nama} , Studio B, Umur ${umur} Tahun`);
   } else if (studio == "C") {
-    alert(`Tiket ${nama} , Studio C, Umur ${umur}`);
+    alert(`Tiket ${nama} , Studio C, Umur ${umur} Tahun`);
   }
 }
